@@ -1,0 +1,128 @@
+/*Variables*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*grid*/
+body {
+  background-image: url(../image/nanoyhamilton.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-areas: "header" "aside" "main" "footer";
+  font-family: "Oswald", sans-serif !important;
+  /*FOOTER*/
+}
+body .header {
+  grid-area: header;
+  /*navegador*/
+}
+body .header #logo {
+  width: 50px;
+  height: auto;
+  float: left;
+}
+body .header #pagina {
+  margin-top: 15px;
+}
+body .header .nav-link:hover {
+  color: #cc0000;
+}
+body .header .navbar {
+  background-color: rgba(51, 51, 51, 0.7803921569);
+  color: white;
+}
+body .header .navbar a {
+  text-decoration: none;
+  color: white;
+}
+body .aside {
+  grid-area: aside;
+}
+body .main {
+  grid-area: main;
+  margin-bottom: 30px;
+  /*Tabla*/
+  /*Gran premio*/
+}
+body .main .thead td, body .main .thead th {
+  background-color: rgba(165, 58, 58, 0.7803921569);
+}
+body .main .escuderia {
+  width: 45%;
+  border-radius: 10%;
+}
+body .main .bandera {
+  width: 30%;
+  border-radius: 10%;
+}
+body .main .gpactual {
+  background-image: url(../image/banderas/qatar.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .main .fondosdivs {
+  background: rgba(230, 230, 230, 0.8352941176);
+}
+body .main .anchoespecifico {
+  width: 95%;
+}
+body .main #argentina {
+  float: none;
+  width: 10%;
+  border-radius: 10%;
+}
+body .main .siguientegp {
+  background-image: url(../image/banderas/estadosunidos.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body .main .mapa {
+  height: 400px;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(51, 51, 51, 0.7803921569);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #cc0000;
+  border-radius: 5px;
+}
+body .footer {
+  background-color: rgba(51, 51, 51, 0.7803921569);
+  color: white;
+  grid-area: footer;
+}
+body .footer #ig {
+  width: 30px;
+  height: auto;
+}
+body .footer #fc {
+  margin-bottom: 3px;
+  width: 25px;
+  height: auto;
+  border-radius: 5px;
+}
+body .footer #x {
+  margin-bottom: 3px;
+  width: 30px;
+  height: auto;
+}
+body .footer #spotify {
+  margin-bottom: 3px;
+  width: 25px;
+  height: auto;
+}
+
+@media (min-width: 100px) and (max-width: 556px) {
+  .socialbar {
+    float: left !important;
+  }
+}
+
+/*# sourceMappingURL=proyecto.css.map */
