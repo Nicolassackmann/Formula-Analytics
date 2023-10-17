@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../image/nanoyhamilton.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-areas: "header"
+                         "aside"
+                         "main"
+                         "footer";
+    font-family: 'Oswald', sans-serif !important;
+    &::-webkit-scrollbar {
+        width: 10px;
+        background-color:$color-primario;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color:$color-f1 ;
+        border-radius: 5px;
+    }
+}

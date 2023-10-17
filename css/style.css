@@ -1,0 +1,328 @@
+@charset "UTF-8";
+/*Variables*/
+.fondosdivs {
+  background: rgba(230, 230, 230, 0.8352941176);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../image/nanoyhamilton.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-areas: "header" "aside" "main" "footer";
+  font-family: "Oswald", sans-serif !important;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgba(51, 51, 51, 0.7803921569);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #cc0000;
+  border-radius: 5px;
+}
+
+.header {
+  grid-area: header;
+  /*navegador*/
+}
+.header #logo {
+  width: 50px;
+  height: auto;
+  float: left;
+}
+.header #pagina {
+  margin-top: 15px;
+}
+.header .nav-link:hover {
+  color: #cc0000;
+}
+.header .navbar {
+  background-color: rgba(51, 51, 51, 0.7803921569);
+  color: white;
+}
+.header .navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.aside {
+  grid-area: aside;
+}
+
+.main {
+  grid-area: main;
+  margin-bottom: 30px;
+  /*Tabla*/
+  /*Gran premio*/
+}
+.main .thead td, .main .thead th {
+  background-color: rgba(165, 58, 58, 0.7803921569);
+}
+.main .escuderia {
+  width: 45%;
+  border-radius: 10%;
+}
+.main .bandera {
+  width: 30%;
+  border-radius: 10%;
+}
+.main .gpactual {
+  background-image: url(../image/banderas/qatar.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .anchoespecifico {
+  width: 95%;
+}
+.main #argentina {
+  float: none;
+  width: 10%;
+  border-radius: 10%;
+}
+.main .siguientegp {
+  background-image: url(../image/banderas/estadosunidos.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .mapa {
+  height: 400px;
+}
+
+.main {
+  grid-area: main;
+  flex: 1;
+  margin-bottom: 30px;
+}
+.main .equipos {
+  background: rgba(230, 230, 230, 0.8352941176);
+}
+.main .equipos #equiposimg {
+  width: 300px;
+  height: 180px;
+  border-radius: 8px;
+}
+.main .equipos #equiposimg:hover {
+  transform: translateY(-4px);
+}
+
+.main {
+  grid-area: main;
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.main {
+  grid-area: main;
+  flex: 1;
+  margin-bottom: 30px;
+}
+.main .pilotos {
+  background: rgba(230, 230, 230, 0.8352941176);
+}
+.main .pilotos #pilotosimg {
+  width: 300px;
+  height: 400px;
+  border-radius: 8px;
+}
+.main .pilotos #pilotosimg:hover {
+  transform: translateY(-4px);
+}
+
+.main {
+  grid-area: main;
+  flex: 1;
+  margin-bottom: 30px;
+}
+.main .cajatablacampeones {
+  background: rgba(230, 230, 230, 0.8352941176);
+}
+.main .tablacampeones {
+  width: 95%;
+}
+.main .tablahead td,
+.main .tablahead th {
+  background-color: rgba(165, 58, 58, 0.7803921569);
+}
+.main .argentino {
+  background-image: url(../image/banderas/argentina.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .aleman {
+  background-image: url(../image/banderas/alemania.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .australiano {
+  background-image: url(../image/banderas/australia.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(146, 139, 139);
+}
+.main .austriaco {
+  background-image: url(../image/banderas/austria.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .americano {
+  background-image: url(../image/banderas/estadosunidos.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .britanico {
+  background-image: url(../image/banderas/granbretaña.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .brasilero {
+  background-image: url(../image/banderas/brasil.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .belga {
+  background-image: url(../image/banderas/belgica.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(146, 139, 139);
+}
+.main .canadiense {
+  background-image: url(../image/banderas/canada.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .español {
+  background-image: url(../image/banderas/españa.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .finlandes {
+  background-image: url(../image/banderas/finlandia.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .frances {
+  background-image: url(../image/banderas/francia.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .italiano {
+  background-image: url(../image/banderas/italia.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .monegasco {
+  background-image: url(../image/banderas/monaco.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .sueco {
+  background-image: url(../image/banderas/suecia.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .neozelandes {
+  background-image: url(../image/banderas/nuevazelanda.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: rgb(146, 139, 139);
+}
+.main .sudafricano {
+  background-image: url(../image/banderas/sudafricavieja.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .holandes {
+  background-image: url(../image/banderas/paises\ bajos.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.main .suizo {
+  background-image: url(../image/banderas/suiza.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main {
+  grid-area: main;
+  flex: 1;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  min-height: 75.4vh;
+}
+.main .margeneslaterales {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.main .margeneslaterales button {
+  width: 100px;
+  height: 45px;
+  background: rgba(165, 58, 58, 0.7803921569);
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.footer {
+  background-color: rgba(51, 51, 51, 0.7803921569);
+  color: white;
+  grid-area: footer;
+  margin-top: auto;
+}
+.footer #ig {
+  width: 30px;
+  height: auto;
+}
+.footer #fc {
+  margin-bottom: 3px;
+  width: 25px;
+  height: auto;
+  border-radius: 5px;
+}
+.footer #x {
+  margin-bottom: 3px;
+  width: 30px;
+  height: auto;
+}
+.footer #spotify {
+  margin-bottom: 3px;
+  width: 25px;
+  height: auto;
+}
+
+@media (min-width: 100px) and (max-width: 556px) {
+  .footer .socialbar {
+    float: left !important;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

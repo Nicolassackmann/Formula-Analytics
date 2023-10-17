@@ -1,0 +1,45 @@
+.main {
+    grid-area: main;
+    margin-bottom: 30px;
+                                                /*Tabla*/
+    
+    .thead  td, .thead th {
+        background-color: $color-thead;
+    }
+
+    .escuderia { 
+        width: 45%;
+        border-radius: 10%;
+    }
+    .bandera {
+        width: 30%;
+        border-radius: 10%;
+    }
+                                                     /*Gran premio*/
+    .gpactual {
+        background-image: url(../image/banderas/qatar.jpg); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+    }
+
+    .anchoespecifico {
+        width: 95%;
+    }
+
+    #argentina {
+        float: none;
+        width: 10%;
+        border-radius: 10%;
+    }
+
+    .siguientegp { 
+        background-image: url(../image/banderas/estadosunidos.png); 
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat;
+    }
+    .mapa {
+        height: 400px;
+    }
+}

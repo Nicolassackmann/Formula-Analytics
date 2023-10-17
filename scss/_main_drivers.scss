@@ -1,0 +1,18 @@
+.main {
+    grid-area: main;
+    flex: 1;
+    margin-bottom: 30px;
+    .pilotos {
+        background:$color-secundario;
+        #pilotosimg {
+            width: 300px;
+            height: 400px;
+            border-radius: 8px;
+            &:hover {
+                transform: translateY(-4px);
+            }
+        }
+    }
+}
+
+
