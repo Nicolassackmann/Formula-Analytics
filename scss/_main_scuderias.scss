@@ -3,7 +3,7 @@
     flex: 1;
     margin-bottom: 30px;
     .equipos {
-        background:$color-secundario;
+        background:map-get($colores , color-secundario);
         #equiposimg {
             width: 300px;
             height: 180px;

@@ -1,6 +1,6 @@
 .footer {
-    background-color: $color-primario;
-    color: $color-letra;
+    background-color: map-get($colores , color-primario );
+    color: map-get($colores , color-letra );
     grid-area: footer;
     margin-top: auto;
     #ig {

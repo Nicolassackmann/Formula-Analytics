@@ -1,6 +1,12 @@
 /*Variables*/
-$color-primario:#333333c7;
-$color-secundario:#e6e6e6d5;
-$color-letra:white;
-$color-f1:#cc0000;
-$color-thead:#a53a3ac7;
+$font-principal :'Oswald', sans-serif !important;
+
+/*Mapa*/
+$colores: (
+    color-primario:#333333c7,
+    color-secundario:#e6e6e6d5,
+    color-letra:white,
+    color-f1:#cc0000,
+    color-thead:#a53a3ac7,
+    color-gris:rgb(146, 139, 139)
+    );

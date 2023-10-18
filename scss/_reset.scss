@@ -14,13 +14,13 @@ body {
                          "aside"
                          "main"
                          "footer";
-    font-family: 'Oswald', sans-serif !important;
+    font-family: $font-principal;
     &::-webkit-scrollbar {
         width: 10px;
-        background-color:$color-primario;
+        background-color:map-get($colores , color-primario );
     }
     &::-webkit-scrollbar-thumb {
-        background-color:$color-f1 ;
+        background-color:map-get($colores, color-f1) ;
         border-radius: 5px;
     }
 }

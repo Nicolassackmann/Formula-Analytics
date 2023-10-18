@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Variables*/
+/*Mapa*/
 .fondosdivs {
   background: rgba(230, 230, 230, 0.8352941176);
 }
@@ -74,7 +75,7 @@ body::-webkit-scrollbar-thumb {
   width: 30%;
   border-radius: 10%;
 }
-.main .gpactual {
+.main .gpactual, .main .siguientegp {
   background-image: url(../image/banderas/qatar.jpg);
   background-size: cover;
   background-position: center;
@@ -90,9 +91,6 @@ body::-webkit-scrollbar-thumb {
 }
 .main .siguientegp {
   background-image: url(../image/banderas/estadosunidos.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .mapa {
   height: 400px;
@@ -142,9 +140,7 @@ body::-webkit-scrollbar-thumb {
   grid-area: main;
   flex: 1;
   margin-bottom: 30px;
-}
-.main .cajatablacampeones {
-  background: rgba(230, 230, 230, 0.8352941176);
+  /*Extends*/
 }
 .main .tablacampeones {
   width: 95%;
@@ -153,7 +149,7 @@ body::-webkit-scrollbar-thumb {
 .main .tablahead th {
   background-color: rgba(165, 58, 58, 0.7803921569);
 }
-.main .argentino {
+.main .argentino, .main .suizo, .main .holandes, .main .sudafricano, .main .neozelandes, .main .sueco, .main .monegasco, .main .italiano, .main .frances, .main .finlandes, .main .español, .main .canadiense, .main .belga, .main .brasilero, .main .britanico, .main .americano, .main .austriaco, .main .australiano, .main .aleman {
   background-image: url(../image/banderas/argentina.png);
   background-size: cover;
   background-position: center;
@@ -161,114 +157,60 @@ body::-webkit-scrollbar-thumb {
 }
 .main .aleman {
   background-image: url(../image/banderas/alemania.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .australiano {
   background-image: url(../image/banderas/australia.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   color: rgb(146, 139, 139);
 }
 .main .austriaco {
   background-image: url(../image/banderas/austria.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .americano {
   background-image: url(../image/banderas/estadosunidos.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .britanico {
   background-image: url(../image/banderas/granbretaña.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .brasilero {
   background-image: url(../image/banderas/brasil.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .belga {
   background-image: url(../image/banderas/belgica.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   color: rgb(146, 139, 139);
 }
 .main .canadiense {
   background-image: url(../image/banderas/canada.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .español {
   background-image: url(../image/banderas/españa.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .finlandes {
   background-image: url(../image/banderas/finlandia.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .frances {
   background-image: url(../image/banderas/francia.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .italiano {
   background-image: url(../image/banderas/italia.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .monegasco {
   background-image: url(../image/banderas/monaco.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .sueco {
   background-image: url(../image/banderas/suecia.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .neozelandes {
   background-image: url(../image/banderas/nuevazelanda.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   color: rgb(146, 139, 139);
 }
 .main .sudafricano {
   background-image: url(../image/banderas/sudafricavieja.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .holandes {
   background-image: url(../image/banderas/paises\ bajos.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 .main .suizo {
   background-image: url(../image/banderas/suiza.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .main {
@@ -280,8 +222,11 @@ body::-webkit-scrollbar-thumb {
   min-height: 75.4vh;
 }
 .main .margeneslaterales {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.main .margeneslaterales textarea {
+  resize: none;
 }
 .main .margeneslaterales button {
   width: 100px;

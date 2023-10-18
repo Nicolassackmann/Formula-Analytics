@@ -4,16 +4,14 @@
                                                 /*Tabla*/
     
     .thead  td, .thead th {
-        background-color: $color-thead;
+        background-color: map-get($colores, color-thead ) ;
     }
 
     .escuderia { 
-        width: 45%;
-        border-radius: 10%;
+        @include tamaño(45%);
     }
     .bandera {
-        width: 30%;
-        border-radius: 10%;
+        @include tamaño(30%);
     }
                                                      /*Gran premio*/
     .gpactual {
@@ -35,9 +33,7 @@
 
     .siguientegp { 
         background-image: url(../image/banderas/estadosunidos.png); 
-        background-size: cover; 
-        background-position: center; 
-        background-repeat: no-repeat;
+        @extend .gpactual;
     }
     .mapa {
         height: 400px;

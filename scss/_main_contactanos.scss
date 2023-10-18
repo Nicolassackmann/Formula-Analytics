@@ -7,13 +7,16 @@
     flex-direction: column;
     min-height: 75.4vh;
     .margeneslaterales {
-       margin-left: 50px;
-       margin-right: 50px;
+       margin-left: 25px;
+       margin-right: 25px;
+       textarea{
+        resize: none;
+       }
        button {
         width: 100px;
         height: 45px;
-        background: $color-thead;
-        color: $color-letra;
+        background:map-get($colores , color-thead );
+        color: map-get($colores , color-letra);
         border: none;
         outline: none;
         } 

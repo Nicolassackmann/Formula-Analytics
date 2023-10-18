@@ -2,9 +2,7 @@
     grid-area: main;
     flex: 1;
     margin-bottom: 30px;
-    .cajatablacampeones {
-        background: $color-secundario;
-    }
+    
 
     .tablacampeones {
         width: 95%;
@@ -12,10 +10,9 @@
 
     .tablahead td,
     .tablahead th {
-        background-color: $color-thead;
-        ;
+        background-color: map-get($colores , color-thead ) ;
     }
-
+        /*Extends*/
     .argentino {
         background-image: url(../image/banderas/argentina.png);
         background-size: cover;
@@ -24,131 +21,95 @@
     }
 
     .aleman {
+        @extend .argentino;
         background-image: url(../image/banderas/alemania.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
     }
 
     .australiano {
         background-image: url(../image/banderas/australia.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        color: rgb(146, 139, 139);
+        @extend .argentino;
+        color: map-get($colores , color-gris);
     }
 
     .austriaco {
         background-image: url(../image/banderas/austria.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 
     .americano {
         background-image: url(../image/banderas/estadosunidos.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 
     .britanico {
         background-image: url(../image/banderas/granbretaña.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 
     .brasilero {
         background-image: url(../image/banderas/brasil.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 
     .belga {
         background-image: url(../image/banderas/belgica.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        color: rgb(146, 139, 139);
+        @extend .argentino;
+        color: map-get($colores , color-gris);
     }
 
     .canadiense {
         background-image: url(../image/banderas/canada.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 
     .español {
         background-image: url(../image/banderas/españa.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 
     .finlandes {
         background-image: url(../image/banderas/finlandia.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 
     .frances {
         background-image: url(../image/banderas/francia.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 
     .italiano {
         background-image: url(../image/banderas/italia.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 
     .monegasco {
         background-image: url(../image/banderas/monaco.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 
     .sueco {
         background-image: url(../image/banderas/suecia.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 
     .neozelandes {
         background-image: url(../image/banderas/nuevazelanda.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        color: rgb(146, 139, 139);
+        @extend .argentino;
+        color:map-get($colores , color-gris);
     }
 
     .sudafricano {
         background-image: url(../image/banderas/sudafricavieja.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 
     .holandes {
         background-image: url(../image/banderas/paises\ bajos.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 
     .suizo {
         background-image: url(../image/banderas/suiza.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @extend .argentino;
     }
 }
