@@ -11,6 +11,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <title>Formula Analytics | Inicio</title>
   <link rel="shortcut icon" href="./image/ico.ico">
@@ -55,9 +56,9 @@
     <script async src="link"></script>
   </aside>
   <main class="main">
-    <div class="container-fluid">
+    <div class="container-fluid w-auto">
       <div class="row">
-        <div class="col">
+        <div class="col" data-aos="fade-right">
           <div class="fondosdivs rounded-4 mt-3">
             <h1 class="text-center">POSICIONES</h1>
             <div class="d-flex justify-content-center">
@@ -249,7 +250,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="fade-left">
           <div class="gpactual rounded-4 text-center mt-3">
             <div class="gptexto">
               <h2>GRAN PREMIO ACTUAL</h2>
@@ -304,7 +305,6 @@
         </div>
       </div>
     </div>
-    </div>
   </main>
 
   <footer class="footer ">
@@ -336,6 +336,10 @@
   </footer>
 
   <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 
