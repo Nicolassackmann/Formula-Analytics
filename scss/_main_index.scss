@@ -3,7 +3,9 @@
     margin-bottom: 30px;
     overflow: hidden;
                                                 /*Tabla*/
-    
+    .anchoespecifico {
+        width: 95%;
+    }
     .thead  td, .thead th {
         background-color: map-get($colores, color-thead ) ;
     }
@@ -20,10 +22,6 @@
         background-size: cover; 
         background-position: center; 
         background-repeat: no-repeat;
-    }
-
-    .anchoespecifico {
-        width: 95%;
     }
 
     #argentina {

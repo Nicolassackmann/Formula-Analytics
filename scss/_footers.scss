@@ -3,22 +3,23 @@
     color: map-get($colores , color-letra );
     grid-area: footer;
     margin-top: auto;
-    #ig {
+    
+    .ig {
         width: 30px;
         height: auto;
     }
-    #fc {
+    .fc {
         margin-bottom: 3px;
         width: 25px;
         height: auto;
         border-radius: 5px;
     }
-    #x {
+    .x {
         margin-bottom: 3px;
         width: 30px;
         height: auto;
     }
-    #spotify {
+    .spotify {
         margin-bottom: 3px;
         width: 25px;
         height: auto;

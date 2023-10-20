@@ -6,7 +6,7 @@
 @mixin color($color,$letra) {
     background: $color;
     color: $letra;
-    #boxw300img {
+    .boxw300img {
         width: 300px;
         height: 180px;
         border-radius: 8px;
@@ -15,4 +15,8 @@
             transform: translateY(-4px);
         }
     }
+}
+
+@mixin tamañoletra($sizeletra) {
+    font-size: $sizeletra;
 }

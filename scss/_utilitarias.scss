@@ -1,12 +1,15 @@
 .fondosdivs {
     background:map-get($colores , color-secundario );
 }
-
 .boxw300 {
-   @include color(map-get($colores , color-secundario ), map-get($colores, color-primario));
+   @include color(map-get($colores , color-secundario ), map-get($colores, color-negro));
 }
-
 .boxw300b {
    @include color(map-get($colores , color-primario ), map-get($colores, color-f1));
 }
-
+.tamañoh1 {
+   @include tamañoletra(2rem)
+}
+.tamañoh2 {
+   @include tamañoletra(1rem) 
+}

@@ -1,12 +1,12 @@
 .header {
     grid-area: header;
                                                 /*navegador*/
-    #logo {
+    .logo {
         width: 50px;
         height: auto;
         float: left;
     }
-    #pagina {
+    .pagina {
         margin-top: 15px;
     }  
     .nav-link:hover {

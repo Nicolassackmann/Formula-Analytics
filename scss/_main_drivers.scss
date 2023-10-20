@@ -4,7 +4,7 @@
     margin-bottom: 30px;
     .pilotos {
         background:map-get($colores , color-secundario);
-        #pilotosimg {
+        .pilotosimg {
             width: 300px;
             height: 400px;
             border-radius: 8px;
