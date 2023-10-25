@@ -8,7 +8,12 @@
     }
     .thead  td, .thead th {
         background-color: map-get($colores, color-thead ) ;
+        
     }
+    .golden {
+            color: map-get($colores , color-golden ) !important;
+        }
+
 
     .escuderia { 
         @include tamaño(45%);
@@ -18,10 +23,11 @@
     }
                                                      /*Gran premio*/
     .gpactual {
-        background-image: url(../image/banderas/qatar.jpg); 
+        background-image: url(../image/banderas/mexico.png); 
         background-size: cover; 
         background-position: center; 
         background-repeat: no-repeat;
+        overflow: hidden;
     }
 
     #argentina {
@@ -31,7 +37,7 @@
     }
 
     .siguientegp { 
-        background-image: url(../image/banderas/estadosunidos.png); 
+        background-image: url(../image/banderas/brasil.png);
         @extend .gpactual;
     }
     .mapa {
