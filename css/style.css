@@ -119,7 +119,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10%;
 }
 .main .gpactual, .main .siguientegp {
-  background-image: url(../image/banderas/mexico.png);
+  background-image: url(../image/banderas/brasil.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -131,10 +131,10 @@ body::-webkit-scrollbar-thumb {
   border-radius: 10%;
 }
 .main .siguientegp {
-  background-image: url(../image/banderas/brasil.png);
+  background-image: url(../image/banderas/estadosunidos.png);
 }
 .main .mapa {
-  height: 400px;
+  height: 315px;
 }
 
 .main {
@@ -177,71 +177,10 @@ body::-webkit-scrollbar-thumb {
 }
 .main .tablacampeones {
   width: 95%;
-  /*Extends*/
 }
 .main .tablacampeones .tablahead td,
 .main .tablacampeones .tablahead th {
   background-color: rgba(165, 58, 58, 0.7803921569);
-}
-.main .tablacampeones .argentino, .main .tablacampeones .suizo, .main .tablacampeones .holandes, .main .tablacampeones .sudafricano, .main .tablacampeones .neozelandes, .main .tablacampeones .sueco, .main .tablacampeones .monegasco, .main .tablacampeones .italiano, .main .tablacampeones .frances, .main .tablacampeones .finlandes, .main .tablacampeones .español, .main .tablacampeones .canadiense, .main .tablacampeones .belga, .main .tablacampeones .brasilero, .main .tablacampeones .britanico, .main .tablacampeones .americano, .main .tablacampeones .austriaco, .main .tablacampeones .australiano, .main .tablacampeones .aleman {
-  background-image: url(../image/banderas/argentina.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.main .tablacampeones .aleman {
-  background-image: url(../image/banderas/alemania.png);
-}
-.main .tablacampeones .australiano {
-  background-image: url(../image/banderas/australia.png);
-}
-.main .tablacampeones .austriaco {
-  background-image: url(../image/banderas/austria.png);
-}
-.main .tablacampeones .americano {
-  background-image: url(../image/banderas/estadosunidos.png);
-}
-.main .tablacampeones .britanico {
-  background-image: url(../image/banderas/granbretaña.png);
-}
-.main .tablacampeones .brasilero {
-  background-image: url(../image/banderas/brasil.png);
-}
-.main .tablacampeones .belga {
-  background-image: url(../image/banderas/belgica.png);
-}
-.main .tablacampeones .canadiense {
-  background-image: url(../image/banderas/canada.png);
-}
-.main .tablacampeones .español {
-  background-image: url(../image/banderas/españa.png);
-}
-.main .tablacampeones .finlandes {
-  background-image: url(../image/banderas/finlandia.png);
-}
-.main .tablacampeones .frances {
-  background-image: url(../image/banderas/francia.png);
-}
-.main .tablacampeones .italiano {
-  background-image: url(../image/banderas/italia.png);
-}
-.main .tablacampeones .monegasco {
-  background-image: url(../image/banderas/monaco.png);
-}
-.main .tablacampeones .sueco {
-  background-image: url(../image/banderas/suecia.png);
-}
-.main .tablacampeones .neozelandes {
-  background-image: url(../image/banderas/nuevazelanda.png);
-}
-.main .tablacampeones .sudafricano {
-  background-image: url(../image/banderas/sudafricavieja.png);
-}
-.main .tablacampeones .holandes {
-  background-image: url(../image/banderas/paises\ bajos.png);
-}
-.main .tablacampeones .suizo {
-  background-image: url(../image/banderas/suiza.png);
 }
 
 .main {

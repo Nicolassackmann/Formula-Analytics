@@ -4,114 +4,14 @@
     margin-bottom: 30px;
     overflow: hidden;
 
-    .tablacampeones {
-        width: 95%;
+        .tablacampeones {
+            width: 95%;
     
 
-    .tablahead td,
-    .tablahead th {
-        background-color: map-get($colores , color-thead ) ;
+        .tablahead td,
+        .tablahead th {
+            background-color: map-get($colores , color-thead ) ;
         
-    }
-    
-
-        /*Extends*/
-    .argentino {
-        background-image: url(../image/banderas/argentina.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        
-    }
-
-    .aleman {
-        @extend .argentino;
-        background-image: url(../image/banderas/alemania.png);
-    }
-
-    .australiano {
-        background-image: url(../image/banderas/australia.png);
-        @extend .argentino;
-    }
-
-    .austriaco {
-        background-image: url(../image/banderas/austria.png);
-        @extend .argentino;
-    }
-
-    .americano {
-        background-image: url(../image/banderas/estadosunidos.png);
-        @extend .argentino;
-    }
-
-    .britanico {
-        background-image: url(../image/banderas/granbretaña.png);
-        @extend .argentino;
-    }
-
-    .brasilero {
-        background-image: url(../image/banderas/brasil.png);
-        @extend .argentino;
-    }
-
-    .belga {
-        background-image: url(../image/banderas/belgica.png);
-        @extend .argentino;
-    }
-
-    .canadiense {
-        background-image: url(../image/banderas/canada.png);
-        @extend .argentino;
-    }
-
-    .español {
-        background-image: url(../image/banderas/españa.png);
-        @extend .argentino;
-    }
-
-    .finlandes {
-        background-image: url(../image/banderas/finlandia.png);
-        @extend .argentino;
-    }
-
-    .frances {
-        background-image: url(../image/banderas/francia.png);
-        @extend .argentino;
-    }
-
-    .italiano {
-        background-image: url(../image/banderas/italia.png);
-        @extend .argentino;
-    }
-
-    .monegasco {
-        background-image: url(../image/banderas/monaco.png);
-        @extend .argentino;
-    }
-
-    .sueco {
-        background-image: url(../image/banderas/suecia.png);
-        @extend .argentino;
-    }
-
-    .neozelandes {
-        background-image: url(../image/banderas/nuevazelanda.png);
-        @extend .argentino;
-    }
-
-    .sudafricano {
-        background-image: url(../image/banderas/sudafricavieja.png);
-        @extend .argentino;
-    }
-
-    .holandes {
-        background-image: url(../image/banderas/paises\ bajos.png);
-        @extend .argentino;
-    }
-
-    .suizo {
-        background-image: url(../image/banderas/suiza.png);
-        @extend .argentino;
-    }
-    }
+        }
+    } 
 }
