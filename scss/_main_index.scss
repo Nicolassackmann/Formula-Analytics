@@ -23,11 +23,11 @@
     }
                                                      /*Gran premio*/
     .gpactual {
-        background-image: url(../image/banderas/brasil.png); 
+        background-image: url(../image/banderas/estadosunidos.png); 
         background-size: cover; 
         background-position: center; 
         background-repeat: no-repeat;
-        overflow: hidden;
+        height: 150px;
     }
 
     #argentina {
@@ -37,8 +37,9 @@
     }
 
     .siguientegp { 
-        background-image: url(../image/banderas/estadosunidos.png);
+        background-image: url(../image/banderas/emiratosarabes.svg);
         @extend .gpactual;
+        
     }
     .mapa {
         height: 315px;
