@@ -22,26 +22,10 @@
         @include tamaño(30%);
     }
                                                      /*Gran premio*/
-    .gpactual {
-        background-image: url(../image/banderas/estadosunidos.png); 
-        background-size: cover; 
-        background-position: center; 
-        background-repeat: no-repeat;
-        height: 150px;
-    }
-
-    #argentina {
-        float: none;
-        width: 10%;
-        border-radius: 10%;
-    }
-
-    .siguientegp { 
-        background-image: url(../image/banderas/emiratosarabes.svg);
-        @extend .gpactual;
-        
-    }
-    .mapa {
-        height: 315px;
+    
+    
+    .heightespe {
+        overflow-y: hidden;
+        height: 1520px;
     }
 }

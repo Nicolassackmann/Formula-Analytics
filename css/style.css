@@ -118,23 +118,9 @@ body::-webkit-scrollbar-thumb {
   width: 30%;
   border-radius: 10%;
 }
-.main .gpactual, .main .siguientegp {
-  background-image: url(../image/banderas/estadosunidos.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 150px;
-}
-.main #argentina {
-  float: none;
-  width: 10%;
-  border-radius: 10%;
-}
-.main .siguientegp {
-  background-image: url(../image/banderas/emiratosarabes.svg);
-}
-.main .mapa {
-  height: 315px;
+.main .heightespe {
+  overflow-y: hidden;
+  height: 1520px;
 }
 
 .main {
